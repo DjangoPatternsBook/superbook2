@@ -27,13 +27,21 @@ $ cd superbook2
 $ pipenv install --dev
 ```
 
-Now you need to enter the pipenv shell to run the examples:
+Now you need to enter the pipenv shell:
 
 ```
 $ pipenv shell
+```
+
+Run the project:
+```
 $ cd src
+$ python manage.py migrate
+$ python manage.py createsuperuser
 $ python manage.py runserver
 ```
+
+Open your browser and visit http://127.0.0.1:8000/ (or the URL shown in the last command)
 
 # Deployment to Heroku
 
