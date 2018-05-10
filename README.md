@@ -6,6 +6,35 @@ SuperBook is a social network for superheroes built with [Python][0] using the [
 [0]: https://www.python.org/
 [1]: https://www.djangoproject.com/
 
+# Local Installation
+
+Git clone to a local directory:
+
+```
+git clone https://github.com/DjangoPatternsBook/superbook2.git
+```
+
+[Install pipenv system-wide or locally](https://docs.pipenv.org/) but outside a virtualenv. Alternatively, follow these commands:
+
+```
+$ pip install -U pip
+$ pip install pipenv
+```
+
+Now go to the project directory and install the dependencies:
+```
+$ cd superbook2
+$ pipenv install --dev
+```
+
+Now you need to enter the pipenv shell to run the examples:
+
+```
+$ pipenv shell
+$ cd src
+$ python manage.py runserver
+```
+
 # Deployment to Heroku
 
 Make sure the following environment variables are set in Heroku
