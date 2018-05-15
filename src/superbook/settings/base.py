@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'sightings',
     'viewschapter',
     'formschapter',
+    'rest_framework',
 
     'widget_tweaks',
     'crispy_forms',
