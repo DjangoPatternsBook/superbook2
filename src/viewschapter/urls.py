@@ -1,5 +1,6 @@
 from django.urls import path, include
 from . import views
+from . import apiviews
 
 app_name = 'viewschapter'
 
@@ -34,4 +35,7 @@ urlpatterns = [
          views.YearView.as_view(), name="year_view"),
 
     path('blog/', include(blog_patterns)),
+
+    path('api/public/',
+         apiviews.PublicPostList.as_view(), name="api_public"),
 ]
