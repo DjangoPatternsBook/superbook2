@@ -125,3 +125,11 @@ LOGIN_REDIRECT_URL = "home"
 
 # Crispy Form Theme - Bootstrap 4
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# Django Rest Framework settings
+REST_FRAMEWORK = {
+    # Allow unauthenticated access to public content
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny'
+    ]
+}

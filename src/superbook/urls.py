@@ -18,6 +18,7 @@ urlpatterns = [
     path('', include(viewschapter.urls, namespace='viewschapter')),
     path('', include(formschapter.urls, namespace='formschapter')),
     path('admin/', admin.site.urls),
+    path('api/', include('rest_framework.urls', namespace='rest_framework')),
 ]
 
 
