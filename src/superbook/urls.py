@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
+from rest_framework.documentation import include_docs_urls
 
 import profiles.urls
 from profiles.views import HomePage
@@ -19,8 +20,8 @@ urlpatterns = [
     path('', include(formschapter.urls, namespace='formschapter')),
     path('admin/', admin.site.urls),
     path('api/', include('rest_framework.urls', namespace='rest_framework')),
+    path('api-docs/', include_docs_urls(title='Superbook API')),
 ]
-
 
 if settings.DEBUG:
     import debug_toolbar
