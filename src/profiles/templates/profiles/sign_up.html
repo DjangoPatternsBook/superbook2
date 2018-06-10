@@ -10,11 +10,11 @@
         <p>Sorry you are already logged in as <b>{{ user.username }}</b>. Do you want to <a href="{% url 'logout' %}">logout?</a></p>
       </div>
     {% else %}
-    <h2> Log-in </h2>
+    <h2> Sign-up </h2>
     <form method="post" novalidate>
       {% csrf_token %}
       {% include 'includes/_render_bootstrap4_form.html' with form=form %}
-      <button type="submit" class="btn btn-primary">Login</button>
+      <button type="submit" class="btn btn-primary">Sign up</button>
       <input type="hidden" name="next" value="{{ next }}" />
     </form>
 

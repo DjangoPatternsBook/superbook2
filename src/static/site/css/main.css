@@ -1,8 +1,37 @@
-.mainform
-{
+html, body{
+    height:100%;		/* For full height images */
+}
+
+/* Home page styling */
+.corporate-jumbo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+      url("/static/site/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #f5f5f5;
+    padding: 10em 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.corporate-jumbo p, .corporate-jumbo h1 {
+    color: #eee;
+    text-shadow: 0px 0px 2px black;
+    background: rgba(0,0,0,.5);
+}
+
+
+.mainform {
     margin-top: 10px;
 }
-#maincontent
-{
+
+#maincontent {
     min-height: 600px;
+}
+
+.homepage #maincontent {
+    min-height: 0;    
 }
