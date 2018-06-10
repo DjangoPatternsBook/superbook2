@@ -35,3 +35,20 @@ html, body{
 .homepage #maincontent {
     min-height: 0;    
 }
+
+.feed-content {
+    min-height: 1200px;
+}
+
+.left-sidebar{
+    background-color: #eee;
+}
+
+.right-sidebar{
+    background-color: #ddd;
+}
+
+.post-meta {
+    background-color: #eee;
+    font-size: 80%;
+}
