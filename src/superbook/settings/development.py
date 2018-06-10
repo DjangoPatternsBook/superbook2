@@ -38,6 +38,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Allow internal IPs for debugging
 INTERNAL_IPS = [
     '127.0.0.1',
+    '0.0.0.0',
     '0.0.0.1',
     'localhost',
     'testserver',
