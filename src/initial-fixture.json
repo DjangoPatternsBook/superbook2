@@ -1,0 +1,581 @@
+[
+{
+    "model": "sightings.location",
+    "pk": 1,
+    "fields": {
+        "latitude": 40.7517,
+        "longitude": -73.9942,
+        "country": "USA"
+    }
+},
+{
+    "model": "sightings.location",
+    "pk": 2,
+    "fields": {
+        "latitude": 40.75,
+        "longitude": -73.99,
+        "country": "USA"
+    }
+},
+{
+    "model": "sightings.location",
+    "pk": 3,
+    "fields": {
+        "latitude": 34.05,
+        "longitude": -118.24,
+        "country": "USA"
+    }
+},
+{
+    "model": "sightings.location",
+    "pk": 4,
+    "fields": {
+        "latitude": 35.6833,
+        "longitude": 139.733,
+        "country": "Japan"
+    }
+},
+{
+    "model": "sightings.location",
+    "pk": 5,
+    "fields": {
+        "latitude": 43.6167,
+        "longitude": 1.45,
+        "country": "France"
+    }
+},
+{
+    "model": "formschapter.importantdate",
+    "pk": 1,
+    "fields": {
+        "date": "2017-12-31",
+        "desc": "test"
+    }
+},
+{
+    "model": "formschapter.importantdate",
+    "pk": 2,
+    "fields": {
+        "date": "2017-12-01",
+        "desc": "Wow"
+    }
+},
+{
+    "model": "formschapter.importantdate",
+    "pk": 4,
+    "fields": {
+        "date": "2017-10-01",
+        "desc": "Many"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "VIP",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "md5$zX6kii8OD8U6$5176444aa3e41d354ff7134ab15c3946",
+        "last_login": "2018-06-10T09:35:49Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Admin",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-06-10T09:35:37Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "md5$Mc4elmHCc6Iq$8ddfa9e04ed3b705d309af005f21c463",
+        "last_login": "2018-06-10T09:15:31.142Z",
+        "is_superuser": true,
+        "username": "arun",
+        "first_name": "Arun",
+        "last_name": "Ravindran",
+        "email": "a@abc.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-10-16T07:49:33Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "md5$vTv4rDMmfVQT$ea284068789be3f7fb6da3d45eab98f2",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "tester",
+        "first_name": "Tester",
+        "last_name": "Kid",
+        "email": "t@t.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-11-01T01:56:13Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+        "password": "md5$pRZOkQnVSzif$987f4d5244de6a82ea6eefb50005d571",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "baby",
+        "first_name": "Baby",
+        "last_name": "Cool",
+        "email": "baby@thebeatles.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-11-01T02:10:42Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+        "password": "md5$WVCMy8Agl5tf$31879bd61b74d3ffa6aa3756a7b2e477",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "blitz",
+        "first_name": "Blitz",
+        "last_name": "Ray",
+        "email": "blitz@hotmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-12-22T06:40:29Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+        "password": "md5$QoZfD9Be374L$efe29551c7ae6c94ac7c8ad9833eb3e2",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hexa",
+        "first_name": "Hexa",
+        "last_name": "Spells",
+        "email": "h3xa@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-12-22T06:41:16Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+        "password": "md5$e59rsYZ3Ow6A$8e4da2fb4e863eec3abfa2f4c8848b66",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "fanboi",
+        "first_name": "Fan",
+        "last_name": "Boy",
+        "email": "fanboi2000@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-06-10T09:23:31Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sightings.sighting",
+    "pk": 2,
+    "fields": {
+        "superhero": 8,
+        "power": "Freeze",
+        "location": 2,
+        "sighted_on": "2014-12-22T17:43:07Z"
+    }
+},
+{
+    "model": "sightings.sighting",
+    "pk": 3,
+    "fields": {
+        "superhero": 8,
+        "power": "Flight",
+        "location": 3,
+        "sighted_on": "2013-03-22T06:00:45Z"
+    }
+},
+{
+    "model": "sightings.sighting",
+    "pk": 4,
+    "fields": {
+        "superhero": 9,
+        "power": "Telekinesis",
+        "location": 4,
+        "sighted_on": "2010-02-17T14:49:04Z"
+    }
+},
+{
+    "model": "sightings.sighting",
+    "pk": 5,
+    "fields": {
+        "superhero": 9,
+        "power": "Flight",
+        "location": 4,
+        "sighted_on": "2010-02-17T15:00:19Z"
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 2,
+    "fields": {
+        "liked_by": 2,
+        "post": 5
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 3,
+    "fields": {
+        "liked_by": 8,
+        "post": 5
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 4,
+    "fields": {
+        "liked_by": 11,
+        "post": 5
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 5,
+    "fields": {
+        "liked_by": 9,
+        "post": 1
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 6,
+    "fields": {
+        "liked_by": 11,
+        "post": 8
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 7,
+    "fields": {
+        "liked_by": 11,
+        "post": 6
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 8,
+    "fields": {
+        "liked_by": 11,
+        "post": 9
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 9,
+    "fields": {
+        "liked_by": 11,
+        "post": 10
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 10,
+    "fields": {
+        "liked_by": 2,
+        "post": 11
+    }
+},
+{
+    "model": "posts.like",
+    "pk": 11,
+    "fields": {
+        "liked_by": 8,
+        "post": 11
+    }
+},
+{
+    "model": "posts.comment",
+    "pk": 2,
+    "fields": {
+        "created": "2018-06-10T09:24:10.871Z",
+        "modified": "2018-06-10T09:24:10.871Z",
+        "posted_by": 2,
+        "message": "<p>Wish you the same!</p>",
+        "parent_post": 5
+    }
+},
+{
+    "model": "posts.comment",
+    "pk": 3,
+    "fields": {
+        "created": "2018-06-10T09:24:40.320Z",
+        "modified": "2018-06-10T09:24:40.320Z",
+        "posted_by": 7,
+        "message": "<p>Happy NEW year!</p>",
+        "parent_post": 5
+    }
+},
+{
+    "model": "posts.comment",
+    "pk": 4,
+    "fields": {
+        "created": "2018-06-10T12:42:47.811Z",
+        "modified": "2018-06-10T12:42:47.811Z",
+        "posted_by": 11,
+        "message": "<p>I had no idea!</p>",
+        "parent_post": 10
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 1,
+    "fields": {
+        "created": "2017-10-19T08:24:09.987Z",
+        "modified": "2017-10-19T08:24:09.987Z",
+        "posted_by": 2,
+        "message": "Hello World! This is the first program most people write :)",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 2,
+    "fields": {
+        "created": "2017-11-06T07:25:41.538Z",
+        "modified": "2017-11-06T07:25:41.538Z",
+        "posted_by": 7,
+        "message": "Nice post dude",
+        "privacy": "individual",
+        "recipient": 2
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 5,
+    "fields": {
+        "created": "2017-12-23T07:53:57.837Z",
+        "modified": "2017-12-23T07:53:57.837Z",
+        "posted_by": 9,
+        "message": "<p>Wish you a <em>very</em> happy <strong>2018</strong>. My resolutions:</p>\r\n\r\n<ol>\r\n\t<li>Understand all my powers</li>\r\n\t<li>Lead a superhero team</li>\r\n\t<li>???</li>\r\n</ol>",
+        "privacy": "public",
+        "recipient": 2
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 6,
+    "fields": {
+        "created": "2018-06-10T12:29:23.249Z",
+        "modified": "2018-06-10T12:29:23.250Z",
+        "posted_by": 8,
+        "message": "<p><strong>Did you know?</strong></p>\r\n\r\n<p>On any day on earth there are on average 35 earthquakes and some 44,000 storms. Lightning strikes the earth 100 times every second.</p>",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 7,
+    "fields": {
+        "created": "2018-06-10T12:29:44.925Z",
+        "modified": "2018-06-10T12:29:44.925Z",
+        "posted_by": 8,
+        "message": "<p><strong>Food for thought</strong></p>\r\n\r\n<p>Stephen Baldwin worked in a pizza parlor,<br />\r\nJean-Claude Van Damme delivered pizzas,<br />\r\nBill Murray was a pizza maker,<br />\r\nMadonna worked at Dunkin&rsquo; Donuts,<br />\r\nJulia Roberts worked in an ice cream parlor,<br />\r\nQueen Latifah worked at Burger King,<br />\r\nAndie McDowell worked at McDonalds, as did Quintin Tarentino,<br />\r\nJennifer Aniston worked as a waitress in a burger cafe.<br />\r\nThere&rsquo;s hope for all of us!</p>",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 8,
+    "fields": {
+        "created": "2018-06-10T12:31:18.394Z",
+        "modified": "2018-06-10T12:31:18.394Z",
+        "posted_by": 9,
+        "message": "<p>In ancient Egypt, dreams were considered extremely important. Today, most people consider dreams to just be a random jumble of images, but Egyptians were convinced that everything you remembered from a dream had significance. People would pay the temple priests&mdash;who had extensive training in dream interpretation, as well as books with the proper guidelines&mdash;to help them interpret their dreams.</p>\r\n\r\n<p>Isn&#39;t that cool?</p>",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 9,
+    "fields": {
+        "created": "2018-06-10T12:32:43.626Z",
+        "modified": "2018-06-10T12:32:43.626Z",
+        "posted_by": 9,
+        "message": "<p>It is outlined during Easter, the only holy day determined by the stars. It always falls on the first Sunday after the first full moon of spring (in the Northern Hemisphere), after the equinox. We live in new times when these energies are available to those who want to receive them.</p>",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 10,
+    "fields": {
+        "created": "2018-06-10T12:33:45.439Z",
+        "modified": "2018-06-10T12:33:45.439Z",
+        "posted_by": 9,
+        "message": "<p><strong>Real origin of Groundhog day:</strong></p>\r\n\r\n<p>Ancient Pagans celebrated the holiday Imbolc on February 2nd, as a way to mark the midpoint between the solstice and the equinox, which was considered the real beginning of spring.</p>",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 11,
+    "fields": {
+        "created": "2018-06-10T12:38:28.460Z",
+        "modified": "2018-06-10T12:38:28.460Z",
+        "posted_by": 1,
+        "message": "<p>We have exceeded 1,000 superheroes on SuperBook. Congratulations! \ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf86</p>",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 12,
+    "fields": {
+        "created": "2018-06-10T12:38:58.702Z",
+        "modified": "2018-06-10T12:38:58.703Z",
+        "posted_by": 7,
+        "message": "<p>Wohoooooo.....</p>",
+        "privacy": "public",
+        "recipient": null
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 13,
+    "fields": {
+        "created": "2018-06-10T12:39:33.784Z",
+        "modified": "2018-06-10T12:39:33.784Z",
+        "posted_by": 11,
+        "message": "<p>Hi Hexa! Big Fan \ud83d\ude0d</p>",
+        "privacy": "individual",
+        "recipient": 9
+    }
+},
+{
+    "model": "posts.post",
+    "pk": 14,
+    "fields": {
+        "created": "2018-06-10T12:40:01.473Z",
+        "modified": "2018-06-10T12:40:01.473Z",
+        "posted_by": 8,
+        "message": "<p>Hey Blitz! \ud83d\udc4d</p>",
+        "privacy": "individual",
+        "recipient": 8
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 1,
+    "fields": {
+        "user_type": 0,
+        "bio": "Admin has the biggest superpower in this site",
+        "birthdate": "2001-06-10",
+        "origin": null,
+        "address": null
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 2,
+    "fields": {
+        "user_type": 1,
+        "bio": "This Guy rocks",
+        "birthdate": "1980-10-19",
+        "origin": "Alien",
+        "address": null
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 5,
+    "fields": {
+        "user_type": 0,
+        "bio": null,
+        "birthdate": "1982-07-20",
+        "origin": null,
+        "address": null
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 7,
+    "fields": {
+        "user_type": 0,
+        "bio": null,
+        "birthdate": "2012-03-10",
+        "origin": null,
+        "address": null
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 8,
+    "fields": {
+        "user_type": 1,
+        "bio": "Faster than a speeding bullet",
+        "birthdate": "1980-06-10",
+        "origin": null,
+        "address": null
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 9,
+    "fields": {
+        "user_type": 1,
+        "bio": null,
+        "birthdate": "1954-06-12",
+        "origin": null,
+        "address": null
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 11,
+    "fields": {
+        "user_type": 0,
+        "bio": "Regular at all Comic Cons",
+        "birthdate": "2000-02-10",
+        "origin": null,
+        "address": null
+    }
+}
+]

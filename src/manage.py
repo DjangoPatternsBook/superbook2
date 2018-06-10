@@ -14,3 +14,6 @@ if __name__ == "__main__":
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+
+# Use the following command to create initial fixture:
+# ./manage.py dumpdata -e contenttypes -e sessions -e admin -e auth.Permission --indent 4 > initial-fixture.json

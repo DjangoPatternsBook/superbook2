@@ -37,11 +37,11 @@ Run the project:
 ```
 $ cd src
 $ python manage.py migrate
-$ python manage.py createsuperuser
+$ python manage.py loaddata initial-fixture.json
 $ python manage.py runserver
 ```
 
-Open your browser and visit http://127.0.0.1:8000/ (or the URL shown in the last command)
+Open your browser and visit http://127.0.0.1:8000/ (or the URL shown in the last command). If you performed loaddata, then you can login using the username: "admin" and password: "admin".
 
 # Deployment to Heroku
 
