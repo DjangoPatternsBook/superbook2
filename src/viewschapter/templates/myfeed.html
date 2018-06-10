@@ -23,7 +23,7 @@
         <div class="media mb-4" style="border: 1px solid #e4e4e4;padding: 8px;border-radius: 4px;">
           <img class="mr-3" style="width: 64px; height: 64px;" src="/static/site/img/user.svg"  alt="Profile pic">
           <div class="media-body">
-            <h5 class="mt-0">{{ item.posted_by }}</h5>
+            <h5 class="mt-0"><a href="{% url 'show_user' slug=item.posted_by %}">{{ item.posted_by }}</a></h5>
             {{ item.message|safe|escape }}
             <div class="post-meta mt-4">
               <p>{{ item.like_set.count }} Like{{ item.like_set.count|pluralize }} | Posted on: {{ item.modified}}</p>
@@ -34,7 +34,7 @@
                   <img style="width: 32px; height: 32px;" src="/static/site/img/user.svg"  alt="Profile pic">
                 </a>
                 <div class="media-body">
-                  <b class="mt-0">{{ comment.posted_by }}</b>
+                  <b class="mt-0"><a href="{% url 'show_user' slug=comment.posted_by %}">{{ comment.posted_by }}</a></b>
                   <small>{{ comment.message|safe|escape }}</small>
                 </div>
               </div>
