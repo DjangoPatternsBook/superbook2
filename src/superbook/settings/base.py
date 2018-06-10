@@ -121,7 +121,7 @@ STATIC_URL = '/static/'
 
 
 # What user sees after logging in
-LOGIN_REDIRECT_URL = "home"
+LOGIN_REDIRECT_URL = "viewschapter:myfeed"
 
 # Crispy Form Theme - Bootstrap 4
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
