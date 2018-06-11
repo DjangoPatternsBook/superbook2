@@ -18,6 +18,8 @@ from .base import *             # NOQA
 
 #STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
+DEBUG = False
+
 WSGI_APPLICATION = 'src.superbook.wsgi.application'
 
 # in your settings file
