@@ -45,21 +45,11 @@ Open your browser and visit http://127.0.0.1:8000/ (or the URL shown in the last
 
 # Deployment to Heroku
 
-Make sure the following environment variables are set in Heroku
-* DATABASE_URL (already set to something like postgres://yqjhfpkrc... if you enable the add-on)
-* DEBUG (False but can be True for debugging)
-* SECRET_KEY
-* ALLOWED_HOSTS (for e.g. superbook-demo.herokuapp.com)
+Enter project root and run the following commands:
 
-Enter project root
 ```
-git push heroku master
-
-export DEBUG="True"
-export DATABASE_URL="sqlite:////tmp/test.db"
-gunicorn src.superbook.wsgi --log-file - --pythonpath "./src"
-
-heroku run python src/manage.py migrate --settings "src.superbook.settings.production" -v 3
-heroku run python src/manage.py createsuperuser --settings "src.superbook.settings.production"
-
+$ heroku create superbook-demo
+$ heroku addons:create heroku-postgresql:hobby-dev
+$ heroku config:set DJANGO_SETTINGS_MODULE=superbook.settings.production
+$ git push heroku master
 ```
