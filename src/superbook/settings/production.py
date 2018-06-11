@@ -2,19 +2,19 @@
 #    DJANGO_SETTINGS_MODULE={{ project_name }}.settings.production
 from .base import *             # NOQA
 
-import dj_database_url
-from decouple import config, Csv
+# import dj_database_url
+# from decouple import config, Csv
 
-# For security and performance reasons, DEBUG is turned off
-SECRET_KEY = config('SECRET_KEY', default="not-a-secret")
-DEBUG = config('DEBUG', default=False, cast=bool)
-DATABASES = {
-    'default': dj_database_url.config(default=config('DATABASE_URL'))
-}
-DATABASES['default']['CONN_MAX_AGE'] = 500
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+# # For security and performance reasons, DEBUG is off by changeable
+# SECRET_KEY = config('SECRET_KEY', default="not-a-secret")
+# DEBUG = config('DEBUG', default=False, cast=bool)
+# DATABASES = {
+#     'default': dj_database_url.config(default=config('DATABASE_URL'))
+# }
+# DATABASES['default']['CONN_MAX_AGE'] = 500
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
-TEMPLATE_DEBUG = DEBUG
+# TEMPLATE_DEBUG = DEBUG
 
 #STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
@@ -36,3 +36,7 @@ LOGGING = {
         },
     },
 }
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
