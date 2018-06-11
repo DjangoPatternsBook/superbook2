@@ -10,7 +10,11 @@
         <p>Sorry you are already logged in as <b>{{ user.username }}</b>. Do you want to <a href="{% url 'logout' %}">logout?</a></p>
       </div>
     {% else %}
-    <h2> Log-in </h2>
+      <h2> Log-in </h2>
+      <div class="alert alert-warning" role="alert">
+        Remember SuperBook is an example project for a <a href="https://arunrocks.com/static/book/django-design-patterns-best-practices-2-ed/">
+        book</a>. Many basic functionality could be missing.
+      </div>
     <form method="post" novalidate>
       {% csrf_token %}
       {% include 'includes/_render_bootstrap4_form.html' with form=form %}
