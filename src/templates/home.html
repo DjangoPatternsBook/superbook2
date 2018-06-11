@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 
-{% block title %} Home {% endblock %}
-  
+{% block title %} {{ block.super }} Home {% endblock %}
+
 {% block bodyclass %}homepage{% endblock %}
 
 {% block pre_content %}
-<div class="jumbotron jumbotron-fluid corporate-jumbo">
-  <div class="container">
-    <h1 class="display-3">Welcome to SuperBook!</h1>
-    <p class="lead">A social network for hard working superheroes and their awesome fans.</p>
-    <div class="row mt-4">
-      <div class="col-sm">
+  <div class="jumbotron jumbotron-fluid corporate-jumbo">
+    <div class="container">
+      <h1 class="display-3">Welcome to SuperBook!</h1>
+      <p class="lead">A social network for hard working superheroes and their awesome fans.</p>
+      <div class="row mt-4">
+        <div class="col-sm-2">
         <a class="btn btn-primary btn-lg" href="{% url 'sign_up'%}" role="button">Join</a>
       </div>
       <div class="col-sm">
